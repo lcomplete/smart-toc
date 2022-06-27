@@ -1,6 +1,6 @@
-# Smart TOC / 智能网页大纲 (for Chrome), 💥 Support Inoreader and Feedly
+# Simple Outliner / 智能网页大纲 (for Chrome), 💥 Support Inoreader and Feedly
 
-> Webpage outliner / 自动生成网页大纲、目录，Support Inoreader and Feedly。
+> Simple Outliner / 自动生成网页大纲、目录，Support Inoreader and Feedly。
 
 ## Download
 
