@@ -47,7 +47,7 @@ export const logObject = <T = any>(object: T, namespace: string): T => {
     }
     return loggers[fnName]
   }
-  const loggedObject = decorateObject<T>(object, {
+  const loggedObject = decorateObject(object as any, {
     onCalled(params, fnName) {
       getLogger(fnName)(...params)
     },

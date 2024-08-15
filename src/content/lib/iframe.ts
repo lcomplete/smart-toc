@@ -12,7 +12,7 @@ const getIframes = (wnd: Window): HTMLIFrameElement[] => {
 }
 
 export const getContentWindow = (): Window => {
-  const rootWindow = window.top
+  const rootWindow = window.top!
 
   const allIframes = getIframes(rootWindow)
 
